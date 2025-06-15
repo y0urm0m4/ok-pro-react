@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=PT+Serif:ital,wght@1,400&family=Poppins:wght@400;700&display=swap');
+
+@theme {
+  /* Цветовая палитра */
+  --color-primary: #141514;
+  --color-primary-2: #0B0C0D;
+  --color-accent: #E2450D;
+  --color-subtext: #BFBFBF;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  /* Шрифты */
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-source-sans: "Source Sans Pro", sans-serif;
+  --font-pt-serif-italic: "PT Serif", serif;
+  --font-poppins: "Poppins", sans-serif;
+
+}
+
+/* Базовые стили для html и ссылок */
+@layer base {
+  html {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+  }
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+}
+
+
