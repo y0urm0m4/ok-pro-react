@@ -15,6 +15,8 @@ function App() {
     return (
         <div className="bg-[var(--color-primary)] text-white">
             <Navbar />
+            <div className="scroll-wrapper">
+            <div className="scroll-smoother">
             {/* ───────────────────────── Hero ───────────────────────── */}
             <section
                 id="hero"
@@ -146,6 +148,8 @@ function App() {
                     Contact‑snippet Placeholder
                 </div>
             </section>
+        </div>
+        </div>
         </div>
     );
 }

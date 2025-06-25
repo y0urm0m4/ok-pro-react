@@ -50,7 +50,7 @@ export default function StickyNavbar() {
     }, [isOpen]);
 
     return (
-        <nav className="sticky top-0 z-50 w-full bg-transparent backdrop-blur-sm">
+        <nav className="fixed top-0 z-50 w-full bg-transparent backdrop-blur-sm" id="navbar">
             {/* Navbar container */}
             <div className="mx-auto flex max-w-7xl items-center justify-between p-4">
                 {/* Brand / Logo placeholder */}
@@ -89,4 +89,6 @@ export default function StickyNavbar() {
         </nav>
     );
 }
+
+<div className="div"></div>
 
